@@ -10,7 +10,7 @@ const multer = require("multer");
 const userRoute = require("./routes/users");
 const authRoute = require("./routes/auth");
 const postRoute = require("./routes/posts.js");
-const router = express.Router();
+// const router = express.Router();
 const path = require("path");
 const MONGO_URL = process.env.MONGO_URL
 
