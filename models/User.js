@@ -37,13 +37,13 @@ const UserSchema = new mongoose.Schema(
       type: Array,
       default: [],
     },
-    isAdmin: {
-      type: Boolean,
-      default: false,
-    },
     desc: {
       type: String,
       max: 50,
+    },
+    isAdmin: {
+      type: Boolean,
+      default: false,
     },
     address: {
       type: String,
