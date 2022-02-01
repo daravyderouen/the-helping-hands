@@ -55,13 +55,13 @@ app.use("/api/auth", authRoute);
 app.use("/api/auth/register", authRoute)
 app.use("/api/posts", postRoute)
 
-app.get("/", (req, res) => {
-  res.send("Welcome to homepage")
-})
+// app.get("/", (req, res) => {
+//   res.send("Welcome to homepage")
+// })
 
-app.get("/users", (req, res) => {
-  res.send("Welcome to users page")
-})
+// app.get("/users", (req, res) => {
+//   res.send("Welcome to users page")
+// })
 
 
 
