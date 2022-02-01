@@ -1,4 +1,4 @@
-### Helping Hands
+# Helping Hands
 > While I had COVID, I was extremely lucky to have family that was able to help take care of my kids and cook for me. However, I thought if someone had no family, or friends that lived far away, how would they get any assistance or if they were in the hospital. Thus I came up with this application.
 <!-- > Live demo [_here_](https://www.example.com). If you have the project hosted somewhere, include the link here. -->
 
