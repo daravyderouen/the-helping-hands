@@ -4,8 +4,13 @@
 
 ## Table of Contents
 <!-- * [General Info](#general-information) -->
-* [Technologies Used](#technologies-used)
-### MERN Stack: MongoDb, Express, React.js, Node.js
+* [Technologies Used](#MongoDb,#Express,#React.js,#Node.js)
+### MERN Stack: 
+*MongoDb 
+*Express
+*React.js 
+*Node.js
+
 * [Features](#features)
 ### User Login, Register
 ### Post tasks, Delete tasks
