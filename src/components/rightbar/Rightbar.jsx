@@ -45,15 +45,15 @@ export default function Rightbar({ profile }) {
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
             <img
-              src="assets/person/1.jpeg"
+              src="assets/person/1.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Jesus</span>
+            <span className="rightbarFollowingName">HELPING HANDS</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/2.jpeg"
+              src="assets/person/2.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
@@ -61,7 +61,7 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/3.jpeg"
+              src="assets/person/3.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
@@ -69,7 +69,7 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/4.jpeg"
+              src="assets/person/4.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
@@ -77,7 +77,7 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/5.jpeg"
+              src="assets/person/5.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
@@ -85,11 +85,11 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/6.jpeg"
+              src="assets/person/6.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Kevin McCall</span>
+            <span className="rightbarFollowingName">Katie McCallister</span>
           </div>
         </div>
       </>

@@ -36,7 +36,7 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <Bookmark className="sidebarIcon" />
-            <span className="sidebarListItemText">Bookmarks</span>
+            <span className="sidebarListItemText">Saved Tasks</span>
           </li>
           <li className="sidebarListItem">
             <HelpOutline className="sidebarIcon" />
@@ -52,7 +52,7 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <School className="sidebarIcon" />
-            <span className="sidebarListItemText">Courses</span>
+            <span className="sidebarListItemText">Volunteer Today!</span>
           </li>
         </ul>
         <button className="sidebarButton">Show More</button>

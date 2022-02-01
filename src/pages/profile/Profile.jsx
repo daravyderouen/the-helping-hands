@@ -13,25 +13,35 @@ export default function Profile() {
         <div className="profileRight">
           <div className="profileRightTop">
             <div className="profileCover">
-              <img
-                className="profileCoverImg"
-                src="assets/post/3.jpeg"
-                alt=""
-              />
+              <img className="profileCoverImg" src="assets/post/3.png" alt="" />
               <img
                 className="profileUserImg"
-                src="./public/assets/person/1.jpg"
+                src="./assets/person/1.jpg"
                 alt=""
               />
             </div>
             <div className="profileInfo">
-                <h4 className="profileInfoName">HELPING HANDS</h4>
-                <span className="profileInfoDesc">Hello my friends!</span>
+              <div className="container">
+                <div className="background-img">
+                  <div className="box">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div className="content">
+                      <h4 className="profileInfoName">WELCOME!</h4>
+                      <h2>Our mission is to help those that cannot help themselves.</h2>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <span className="profileInfoDesc">Hello my friends!</span> */}
             </div>
           </div>
           <div className="profileRightBottom">
             <Feed />
-            <Rightbar profile/>
+            <Rightbar profile />
           </div>
         </div>
       </div>
