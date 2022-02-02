@@ -53,7 +53,7 @@
   
   /*start of box */
   .container {
-    padding-top: 20px;
+    /* padding-top: 10px; */
     padding-bottom: 20px;
   }
   /* body {
@@ -62,7 +62,7 @@
   
   .background-img {
     background-image: url("https://images.unsplash.com/photo-1591276625440-d50e6618dfd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-    height: 50vh;
+    height: 40vh;
     width: 30vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,8 +84,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     background: #111845a6;
     box-sizing: border-box;
     overflow: hidden;

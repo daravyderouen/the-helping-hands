@@ -41,10 +41,6 @@ const UserSchema = new mongoose.Schema(
       type: String,
       max: 50,
     },
-    isAdmin: {
-      type: Boolean,
-      default: false,
-    },
     address: {
       type: String,
       max: 50,
@@ -52,6 +48,10 @@ const UserSchema = new mongoose.Schema(
     city: {
       type: String,
       max: 50,
+    },
+    isAdmin: {
+      type: Boolean,
+      default: false,
     },
   },
   { timestamps: true }

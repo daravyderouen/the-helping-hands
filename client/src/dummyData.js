@@ -94,7 +94,7 @@ export const Users = [
     },
     {
       id: 5,
-      desc: "I'm available to do house chores. It's just a flick of the wrist.'",
+      desc: "I'm available to do house chores. It's just a flick of the wrist.",
       photo: "assets/post/5.jpg",
       date: "5 hours ago",
       userId: 5,
@@ -104,7 +104,7 @@ export const Users = [
     },
     {
       id: 6,
-      desc: "In need of a good babysitter, one that can housesit with a kid!",
+      desc: "Due to unforeseen circumstances, I'm out of the country! In need of a good babysitter, one that can housesit with a kid!",
       photo: "assets/post/6.jpg",
       date: "1 day ago",
       userId: 6,
@@ -153,3 +153,4 @@ export const Users = [
       comment: 12,
     },
   ];
+  

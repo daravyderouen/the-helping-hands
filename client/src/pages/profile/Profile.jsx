@@ -16,7 +16,7 @@ export default function Profile() {
               <img className="profileCoverImg" src="assets/post/3.png" alt="" />
               <img
                 className="profileUserImg"
-                src="./assets/person/1.jpg"
+                src="./assets/person/1.png"
                 alt=""
               />
             </div>
@@ -29,8 +29,8 @@ export default function Profile() {
                     <span></span>
                     <span></span>
                     <div className="content">
-                      <h4 className="profileInfoName">WELCOME TO HELPING HANDS!</h4>
-                      <h2>Our mission is to help those that cannot help themselves.</h2>
+                      <h3 className="profileInfoName">WELCOME TO HELPING HANDS!</h3>
+                      {/* <h1>Hope is priceless.</h1> */}
                       <div></div>
                     </div>
                   </div>

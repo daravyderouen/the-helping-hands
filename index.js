@@ -1,31 +1,31 @@
-require('dotenv').config()
-const express = require('express');
+require("dotenv").config();
+const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT || 3000;
 const mongoose = require("mongoose");
-// const dotenv = require("dotenv");
+const dotenv = require("dotenv");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const multer = require("multer");
-const userRoute = require("./routes/users");
+const userRoute = require("./models/User");
 const authRoute = require("./routes/auth");
-const postRoute = require("./routes/posts.js");
+const postRoute = require("./routes/posts");
 // const router = express.Router();
 const path = require("path");
-const MONGO_URL = process.env.MONGO_URL
+const MONGO_URL = process.env.MONGO_URL;
 
+dotenv.config();
 
-// dotenv.config();
+mongoose
+  .connect(MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  })
+  .then(() => console.log("Database Connected"))
+  .catch((err) => console.log(err));
 
-mongoose.connect(
-    MONGO_URL,
-    { useNewUrlParser: true, useUnifiedTopology: true})
-      .then(() => console.log( 'Database Connected' ))
-      .catch(err => console.log( err ))
-
-      app.use("/images", express.static(path.join(__dirname, "public/images")));
-  
- 
+// app.use("/images", express.static(path.join(__dirname, "public/images")));
 
 //middleware
 app.use(express.json());
@@ -52,8 +52,8 @@ app.post("/api/upload", upload.single("file"), (req, res) => {
 
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
-app.use("/api/auth/register", authRoute)
-app.use("/api/posts", postRoute)
+app.use("/api/auth/register", authRoute);
+app.use("/api/posts", postRoute);
 
 // app.get("/", (req, res) => {
 //   res.send("Welcome to homepage")
@@ -63,8 +63,6 @@ app.use("/api/posts", postRoute)
 //   res.send("Welcome to users page")
 // })
 
-
-
 app.listen(PORT, () => {
-    console.log(`Server is ON FIYA!`)
-})
+  console.log(`Server is ON FIYA!`);
+});

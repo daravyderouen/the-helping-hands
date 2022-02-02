@@ -5,6 +5,7 @@ const PostSchema = new mongoose.Schema(
     userId: {
       type: String,
       required: true,
+      
     },
     desc: {
       type: String,
@@ -12,6 +13,10 @@ const PostSchema = new mongoose.Schema(
     },
     img: {
       type: String,
+    },
+    checked: {
+      type: Array,
+      default: [],
     },
     likes: {
       type: Array,

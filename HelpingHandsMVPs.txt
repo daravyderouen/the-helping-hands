@@ -13,7 +13,7 @@ MVPs for "Helping Hands" App
 -Sign up page for "Helpers"
 -Sign up page for "In Need"
 -Confirmation Page
--Account/Profile Page: User info, listing past, current, and future tasks
+-Account/Profile Page: User info, post, current, and future tasks
 -Deactivate Page & Unsubscribe Page 
 
 Theme color: 
