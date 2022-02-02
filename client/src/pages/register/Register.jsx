@@ -1,14 +1,14 @@
 import axios from "axios";
 import { useRef } from "react";
 import "./register.css";
-import { useNavigate} from "react-router";
+import { useHistory } from "react-router";
 
-function Register() {
+export default function Register() {
   const username = useRef();
   const email = useRef();
   const password = useRef();
   const passwordAgain = useRef();
-  const history = useNavigate();
+  const history = useHistory();
 
   const handleClick = async (e) => {
     e.preventDefault();
@@ -78,6 +78,3 @@ function Register() {
     </div>
   );
 }
-
-
-export default Register;
