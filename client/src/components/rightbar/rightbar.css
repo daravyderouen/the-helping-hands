@@ -45,6 +45,7 @@
 }
 
 .rightbarInfo{
+  
   margin-bottom: 30px;
 }
 
@@ -96,7 +97,7 @@
   flex-direction: column;
   /* justify-content: start; */
   width: 380px;
-  min-height: 500px;
+  min-height: 400px;
   background: rgb(2, 2, 80);
   text-align: center;
   margin: 128px auto;
