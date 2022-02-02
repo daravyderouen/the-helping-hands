@@ -104,7 +104,7 @@ export const Users = [
     },
     {
       id: 6,
-      desc: "Due to unforeseen circumstances, I'm out of the country! In need of a good babysitter, one that can housesit with a kid!",
+      desc: "Due to unforeseen circumstances, I'm out of the country! In need of a good babysitter, one that can house sit with a kid!",
       photo: "assets/post/6.jpg",
       date: "1 day ago",
       userId: 6,
