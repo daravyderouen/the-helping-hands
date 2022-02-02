@@ -4,8 +4,7 @@
   <br>
   <a href=" "><img src="https://github.com/daravyderouen/the-helping-hands/blob/main/api/public/images/person/1.jpg?raw=true" alt="Helping Hands Logo" width="500"></a>
   <br>
-  
-  - ![#90CFF0](HELPING HANDS) `#90CFF0`
+
   <br>
 </h1>
 
