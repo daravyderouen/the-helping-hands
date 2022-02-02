@@ -2,9 +2,9 @@
 
 <h1 align="center">
   <br>
-  <a href=" "><img src="https://github.com/daravyderouen/the-helping-hands/blob/main/api/public/images/person/1.jpg?raw=true" alt="Helping Hands Logo" width="200"></a>
+  <a href=" "><img src="https://github.com/daravyderouen/the-helping-hands/blob/main/api/public/images/person/1.jpg?raw=true" alt="Helping Hands Logo" width="500"></a>
   <br>
-  @@Helping Hands@@
+  <font color="#89CFF0">Helping Hands</font>
   <br>
 </h1>
 
@@ -51,15 +51,13 @@
   - Register
   - Create a Task Post 
 * Fetch data from MongoDB
-* Add a task by clicking<a href=" "><img src="https://github.com/daravyderouen/the-helping-hands/blob/main/api/public/images/check.png?raw=true" alt="check" width="50"></a>
+* Add a task by clicking<a href=" "><img src="https://github.com/daravyderouen/the-helping-hands/blob/main/api/public/images/check.png?raw=true" alt="check" width="20"></a>
 
 * Task Tracker
   - Add new task
   - Update task
   - Delete task
-
 * Follow/Unfollow User
-* Dark/Light mode
 
 ## How To Use
 
