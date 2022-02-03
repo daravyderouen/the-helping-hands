@@ -45,9 +45,9 @@
 ## Key Features
 
 * LivePreview - Make changes, See changes
-  - Login
   - Register
-  - Create a Task Post 
+  - Login
+  - Like/Love post
 * Fetch data from MongoDB
 * Add a task by clicking<a href=" "><img src="https://github.com/daravyderouen/the-helping-hands/blob/main/api/public/images/check.png?raw=true" alt="check" width="20"></a>
 
@@ -55,7 +55,6 @@
   - Add new task
   - Update task
   - Delete task
-* Follow/Unfollow User
 
 ## How To Use
 
