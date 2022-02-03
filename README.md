@@ -1,4 +1,5 @@
 
+![Helping Hands Website](https://github.com/daravyderouen/the-helping-hands/blob/main/helpingHandsApp.gif)
 
 <h1 align="center">
   <br>
@@ -7,7 +8,6 @@
 
   <br>
 </h1>
-![Helping Hands Website](https://github.com/daravyderouen/the-helping-hands/blob/main/helpingHandsApp.gif?raw=true)
 
 <h4 align="center">This application was built to connect those who are in need of assistances whether it is: walking the dog, cutting the grass, changing a lightbulb, or any community service organization looking for extra hands to help. <br /><a href=" ">We can all wish for hope.</a>.</h4>
 
