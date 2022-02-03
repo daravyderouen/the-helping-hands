@@ -16,14 +16,19 @@ function Login() {
       dispatch
     );
   };
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
 
   return (
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">Helping Hands</h3>
+        <img className="loginLogoimg"
+                src={`${PF}post/1.png`}
+                alt=""
+              />
+          {/* <h3 className="loginLogo">Helping Hands</h3> */}
           <span className="loginDesc">
-            Connect with friends and the world around you on Helping Hands.
+            Connect with the world & lend a hand.
           </span>
         </div>
         <div className="loginRight">

@@ -28,15 +28,25 @@ export default function Register() {
       }
     }
   };
-
+  
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   return (
+    <>
+    <div>
+    
+    
+        <img className="registerLogoimg"
+                src={`${PF}post/registration.jpg`}
+                alt=""
+              />
+       </div>       
     <div className="login">
       <div className="loginWrapper">
         <div className="loginLeft">
-          <h3 className="loginLogo">Helping Hands</h3>
+          {/* <h3 className="loginLogo">Helping Hands</h3>
           <span className="loginDesc">
             Connect with friends and the world around you on Helping Hands.
-          </span>
+          </span> */}
         </div>
         <div className="loginRight">
           <form className="loginBox" onSubmit={handleClick}>
@@ -76,5 +86,6 @@ export default function Register() {
         </div>
       </div>
     </div>
+    </>
   );
 }

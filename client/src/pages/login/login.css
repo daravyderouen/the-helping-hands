@@ -26,10 +26,14 @@
   font-weight: 800;
   color: #50dfdb;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .loginDesc {
+  justify-content: center;
+  align-items: center;
   font-size: 24px;
+  text-align: match-parent;
 }
 
 .loginBox{
@@ -81,4 +85,9 @@
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.loginLogoimg{
+  width:24vw;
+  border-radius: 5%;
 }
